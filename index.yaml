@@ -2,8 +2,24 @@ apiVersion: v1
 entries:
   cockroachdb:
   - apiVersion: v1
+    appVersion: 22.1.11
+    created: "2022-11-22T11:02:56.775613Z"
+    description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
+    digest: edd9cf194b098fc100cb9bfecaacaa70b78e49f325dae331d24a3333d6632206
+    home: https://www.cockroachlabs.com
+    icon: https://raw.githubusercontent.com/cockroachdb/cockroach/master/docs/media/cockroach_db.png
+    maintainers:
+    - email: helm-charts@cockroachlabs.com
+      name: cockroachlabs
+    name: cockroachdb
+    sources:
+    - https://github.com/cockroachdb/cockroach
+    urls:
+    - cockroachdb-9.1.1.tgz
+    version: 9.1.1
+  - apiVersion: v1
     appVersion: 22.1.8
-    created: "2022-10-10T15:21:03.207853+01:00"
+    created: "2022-11-22T11:02:56.77383Z"
     description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
     digest: 407338b124a6b51189fa2cfdcf51840cc3c430cdc62fb1007fdf433c3c2a0a1e
     home: https://www.cockroachlabs.com
@@ -19,7 +35,7 @@ entries:
     version: 8.1.7
   - apiVersion: v1
     appVersion: 22.1.2
-    created: "2022-10-10T15:21:03.205628+01:00"
+    created: "2022-11-22T11:02:56.76999Z"
     description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
     digest: 0cf2ff630f4dca09d91c01a9c528c451a215a965c2ff675008ff5e35acc3d2b4
     home: https://www.cockroachlabs.com
@@ -33,55 +49,4 @@ entries:
     urls:
     - cockroachdb-8.1.1.tgz
     version: 8.1.1
-  linkerd-viz:
-  - apiVersion: v1
-    appVersion: edge-XX.X.X
-    created: "2022-10-10T15:21:03.213761+01:00"
-    dependencies:
-    - name: partials
-      repository: file://../../../charts/partials
-      version: 0.1.0
-    description: 'The Linkerd-Viz extension contains observability and visualization
-      components for Linkerd. '
-    digest: 8fa643b2cb8c05a51c0df25a5e9e8c6d623dcb439eda04348d1145b9de74bbcc
-    home: https://linkerd.io
-    icon: https://linkerd.io/images/logo-only-200h.png
-    keywords:
-    - service-mesh
-    kubeVersion: '>=1.21.0-0'
-    maintainers:
-    - email: cncf-linkerd-dev@lists.cncf.io
-      name: Linkerd authors
-      url: https://linkerd.io/
-    name: linkerd-viz
-    sources:
-    - https://github.com/linkerd/linkerd2/
-    urls:
-    - linkerd-viz-30.4.0-edge.tgz
-    version: 30.4.0-edge
-  - apiVersion: v1
-    appVersion: edge-XX.X.X
-    created: "2022-10-10T15:21:03.209346+01:00"
-    dependencies:
-    - name: partials
-      repository: file://../../../charts/partials
-      version: 0.1.0
-    description: 'The Linkerd-Viz extension contains observability and visualization
-      components for Linkerd. '
-    digest: 983632fcd7e2064ebfd5a340f478dd268045c5870ccbf9d2b2037058cfb2ed47
-    home: https://linkerd.io
-    icon: https://linkerd.io/images/logo-only-200h.png
-    keywords:
-    - service-mesh
-    kubeVersion: '>=1.17.0-0'
-    maintainers:
-    - email: cncf-linkerd-dev@lists.cncf.io
-      name: Linkerd authors
-      url: https://linkerd.io/
-    name: linkerd-viz
-    sources:
-    - https://github.com/linkerd/linkerd2/
-    urls:
-    - linkerd-viz-0.1.0.tgz
-    version: 0.1.0
-generated: "2022-10-10T15:21:03.203145+01:00"
+generated: "2022-11-22T11:02:56.767983Z"
