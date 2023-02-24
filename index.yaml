@@ -3,23 +3,7 @@ entries:
   cockroachdb:
   - apiVersion: v1
     appVersion: 22.2.3
-    created: "2023-02-24T16:14:15.317394Z"
-    description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
-    digest: 441e03d42e7cd0d05a8ecde2f3b0fdee1124bc0406dfbb35d95c857cf9f1918a
-    home: https://www.cockroachlabs.com
-    icon: https://raw.githubusercontent.com/cockroachdb/cockroach/master/docs/media/cockroach_db.png
-    maintainers:
-    - email: helm-charts@cockroachlabs.com
-      name: cockroachlabs
-    name: cockroachdb
-    sources:
-    - https://github.com/cockroachdb/cockroach
-    urls:
-    - cockroachdb-testing.tgz
-    version: 10.0.3
-  - apiVersion: v1
-    appVersion: 22.2.3
-    created: "2023-02-24T16:14:15.306195Z"
+    created: "2023-02-24T16:15:44.332527Z"
     description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
     digest: f6490613b8066fd86e5fc1163aaf44ef719e40f7242cf16fb4eaf6616a7cab1a
     home: https://www.cockroachlabs.com
@@ -35,7 +19,7 @@ entries:
     version: 10.0.3
   - apiVersion: v1
     appVersion: 22.2.2
-    created: "2023-02-24T16:14:15.304673Z"
+    created: "2023-02-24T16:15:44.33123Z"
     description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
     digest: 684d0e332c8080e5152523bcbb0de7e74884dcacaae52a69684f4956d5888c05
     home: https://www.cockroachlabs.com
@@ -51,7 +35,7 @@ entries:
     version: 10.0.2
   - apiVersion: v1
     appVersion: 22.2.0
-    created: "2023-02-24T16:14:15.30233Z"
+    created: "2023-02-24T16:15:44.329045Z"
     description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
     digest: 69189ec45eaf9316fe1d728d480e672ca04e50c65723b439d5147e18fc2b7650
     home: https://www.cockroachlabs.com
@@ -67,7 +51,7 @@ entries:
     version: 10.0.0
   - apiVersion: v1
     appVersion: 22.1.11
-    created: "2023-02-24T16:14:15.31109Z"
+    created: "2023-02-24T16:15:44.336429Z"
     description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
     digest: edd9cf194b098fc100cb9bfecaacaa70b78e49f325dae331d24a3333d6632206
     home: https://www.cockroachlabs.com
@@ -83,7 +67,7 @@ entries:
     version: 9.1.1
   - apiVersion: v1
     appVersion: 22.1.8
-    created: "2023-02-24T16:14:15.309343Z"
+    created: "2023-02-24T16:15:44.335082Z"
     description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
     digest: 407338b124a6b51189fa2cfdcf51840cc3c430cdc62fb1007fdf433c3c2a0a1e
     home: https://www.cockroachlabs.com
@@ -99,7 +83,7 @@ entries:
     version: 8.1.7
   - apiVersion: v1
     appVersion: 22.1.2
-    created: "2023-02-24T16:14:15.307657Z"
+    created: "2023-02-24T16:15:44.333732Z"
     description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
     digest: 0cf2ff630f4dca09d91c01a9c528c451a215a965c2ff675008ff5e35acc3d2b4
     home: https://www.cockroachlabs.com
@@ -116,7 +100,7 @@ entries:
   cockroachdb-client-secure:
   - apiVersion: v2
     appVersion: 22.2.3
-    created: "2023-02-24T16:14:15.314111Z"
+    created: "2023-02-24T16:15:44.338203Z"
     description: A Helm chart for CockroachDB's secure client container
     digest: a71304f1db8e7cd22e6c6e22903f844a29ef246b00542468ac1d00851ed657ba
     name: cockroachdb-client-secure
@@ -126,7 +110,7 @@ entries:
     version: 10.0.3
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-02-24T16:14:15.312078Z"
+    created: "2023-02-24T16:15:44.337191Z"
     description: A Helm chart for CockroachDB's secure client container
     digest: 1cae232a654cd2ecb548505c8d6918a4b64e7a5eefef0c332c540e4c84334854
     name: cockroachdb-client-secure
@@ -137,7 +121,7 @@ entries:
   cockroachdb-test:
   - apiVersion: v1
     appVersion: 22.2.3
-    created: "2023-02-24T16:14:15.315767Z"
+    created: "2023-02-24T16:15:44.340162Z"
     description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
     digest: 3fe4a1514fcd3feae624919590e8c3d9029762f7c44f0534b4a310e9a4ce45b0
     home: https://www.cockroachlabs.com
@@ -154,7 +138,7 @@ entries:
   mimir-crds:
   - apiVersion: v2
     appVersion: 0.30.1
-    created: "2023-02-24T16:14:15.335474Z"
+    created: "2023-02-24T16:15:44.357853Z"
     description: Mimir CustomResourceDefinitions dependencies.
     digest: 0d30dfd87657e81352b13eecee877d6a696a3a9a2bd1486ce54854e4350e9659
     name: mimir-crds
@@ -165,7 +149,7 @@ entries:
   mimir-distributed:
   - apiVersion: v2
     appVersion: r225
-    created: "2023-02-24T16:14:15.331936Z"
+    created: "2023-02-24T16:15:44.353585Z"
     dependencies:
     - alias: minio
       condition: minio.enabled
@@ -193,7 +177,7 @@ entries:
     version: 4.1.0-weekly.225
   - apiVersion: v2
     appVersion: r214
-    created: "2023-02-24T16:14:15.324682Z"
+    created: "2023-02-24T16:15:44.346356Z"
     dependencies:
     - alias: minio
       condition: minio.enabled
@@ -219,4 +203,4 @@ entries:
     urls:
     - mimir-4.0.0.tgz
     version: 4.0.0-weekly.214
-generated: "2023-02-24T16:14:15.300238Z"
+generated: "2023-02-24T16:15:44.327348Z"
