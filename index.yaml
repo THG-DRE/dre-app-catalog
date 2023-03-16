@@ -43,6 +43,17 @@ entries:
     urls:
     - cloudnative-pg-0.17.0.tgz
     version: 0.17.0
+  cloudnative-pg-cluster:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-16T14:27:49.426821Z"
+    description: A Helm chart for deploying a cloudnative postgres cluster
+    digest: 394b3d186a097d3df7848e7beb75d71b38afa9081d370467f582e9098a9cc95d
+    name: cloudnative-pg-cluster
+    type: application
+    urls:
+    - cloudnative-pg-cluster-0.1.0.tgz
+    version: 0.1.0
   cockroachdb:
   - apiVersion: v1
     appVersion: 22.2.6
