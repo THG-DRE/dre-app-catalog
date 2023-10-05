@@ -3,7 +3,7 @@ entries:
   cloudflare-tunnel-remote:
   - apiVersion: v2
     appVersion: latest
-    created: "2023-09-05T10:50:45.759231+01:00"
+    created: "2023-10-05T14:57:29.708396+01:00"
     description: Deployment of a remotely managed tunnel that has already been provisioned
       in Cloudflare
     digest: d7de2ea99324ddbd2584773be3b4e8b68d4d571d674533577c0dcf54023ca84e
@@ -16,7 +16,7 @@ entries:
   cloudnative-pg:
   - apiVersion: v2
     appVersion: 1.19.0
-    created: "2023-09-05T10:50:45.766003+01:00"
+    created: "2023-10-05T14:57:29.719719+01:00"
     description: CloudNativePG Helm Chart
     digest: 305dcc752ae919c3795eb39adba3a8046968722d4441dfd506f76b7b7ed63ff5
     home: https://cloudnative-pg.io
@@ -37,7 +37,7 @@ entries:
     version: 0.17.1
   - apiVersion: v2
     appVersion: 1.19.0
-    created: "2023-09-05T10:50:45.762352+01:00"
+    created: "2023-10-05T14:57:29.715004+01:00"
     description: CloudNativePG Helm Chart
     digest: f3b7a4ca45a8500e9082669c0c6bf72ef90a2d38ab335fb8fa47d5f05a523f7b
     home: https://cloudnative-pg.io
@@ -59,7 +59,17 @@ entries:
   cloudnative-pg-cluster:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-05T10:50:45.767351+01:00"
+    created: "2023-10-05T14:57:29.721802+01:00"
+    description: A Helm chart for deploying a cloudnative postgres cluster
+    digest: 11f297321bc410b669202175e50f00fca9bfcf244588dc426e74d61b600f629f
+    name: cloudnative-pg-cluster
+    type: application
+    urls:
+    - cloudnative-pg-cluster-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-10-05T14:57:29.721449+01:00"
     description: A Helm chart for deploying a cloudnative postgres cluster
     digest: 6be88ad9e446ee984ed448b8be0096d5316744228a6ba934171fbfaf155ff7f9
     name: cloudnative-pg-cluster
@@ -69,7 +79,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-05T10:50:45.766892+01:00"
+    created: "2023-10-05T14:57:29.720894+01:00"
     description: A Helm chart for deploying a cloudnative postgres cluster
     digest: 53a6dfbe904db90e50321608782e224aa92877d4cab3feb13556c20b22ed5a9e
     name: cloudnative-pg-cluster
@@ -79,7 +89,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-05T10:50:45.766455+01:00"
+    created: "2023-10-05T14:57:29.720353+01:00"
     description: A Helm chart for deploying a cloudnative postgres cluster
     digest: 1321853698eedd61f7a434147e87bfcae1b854caeba6677a818253d3f7f025a3
     name: cloudnative-pg-cluster
@@ -90,7 +100,7 @@ entries:
   cockroachdb:
   - apiVersion: v1
     appVersion: 22.2.7
-    created: "2023-09-05T10:50:45.775872+01:00"
+    created: "2023-10-05T14:57:29.731883+01:00"
     description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
     digest: 8ec74f6b7511af6a9c22489baa95f27c73ac8d11513f05149660d65a496c32ec
     home: https://www.cockroachlabs.com
@@ -106,7 +116,7 @@ entries:
     version: 10.0.7
   - apiVersion: v1
     appVersion: 22.2.6
-    created: "2023-09-05T10:50:45.774218+01:00"
+    created: "2023-10-05T14:57:29.729794+01:00"
     description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
     digest: b8a5eb69c1b447ee5c54066a4c22375738ee2210680291594c05bd503158ffbe
     home: https://www.cockroachlabs.com
@@ -122,7 +132,7 @@ entries:
     version: 10.0.6
   - apiVersion: v1
     appVersion: 22.2.3
-    created: "2023-09-05T10:50:45.772575+01:00"
+    created: "2023-10-05T14:57:29.727621+01:00"
     description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
     digest: f6490613b8066fd86e5fc1163aaf44ef719e40f7242cf16fb4eaf6616a7cab1a
     home: https://www.cockroachlabs.com
@@ -138,7 +148,7 @@ entries:
     version: 10.0.3
   - apiVersion: v1
     appVersion: 22.2.2
-    created: "2023-09-05T10:50:45.770511+01:00"
+    created: "2023-10-05T14:57:29.725628+01:00"
     description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
     digest: 684d0e332c8080e5152523bcbb0de7e74884dcacaae52a69684f4956d5888c05
     home: https://www.cockroachlabs.com
@@ -154,7 +164,7 @@ entries:
     version: 10.0.2
   - apiVersion: v1
     appVersion: 22.2.0
-    created: "2023-09-05T10:50:45.769027+01:00"
+    created: "2023-10-05T14:57:29.723802+01:00"
     description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
     digest: 69189ec45eaf9316fe1d728d480e672ca04e50c65723b439d5147e18fc2b7650
     home: https://www.cockroachlabs.com
@@ -170,7 +180,7 @@ entries:
     version: 10.0.0
   - apiVersion: v1
     appVersion: 22.1.11
-    created: "2023-09-05T10:50:45.78076+01:00"
+    created: "2023-10-05T14:57:29.739548+01:00"
     description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
     digest: edd9cf194b098fc100cb9bfecaacaa70b78e49f325dae331d24a3333d6632206
     home: https://www.cockroachlabs.com
@@ -186,7 +196,7 @@ entries:
     version: 9.1.1
   - apiVersion: v1
     appVersion: 22.1.8
-    created: "2023-09-05T10:50:45.7791+01:00"
+    created: "2023-10-05T14:57:29.737481+01:00"
     description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
     digest: 407338b124a6b51189fa2cfdcf51840cc3c430cdc62fb1007fdf433c3c2a0a1e
     home: https://www.cockroachlabs.com
@@ -202,7 +212,7 @@ entries:
     version: 8.1.7
   - apiVersion: v1
     appVersion: 22.1.2
-    created: "2023-09-05T10:50:45.777406+01:00"
+    created: "2023-10-05T14:57:29.735313+01:00"
     description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
     digest: 0cf2ff630f4dca09d91c01a9c528c451a215a965c2ff675008ff5e35acc3d2b4
     home: https://www.cockroachlabs.com
@@ -218,7 +228,7 @@ entries:
     version: 8.1.1
   - apiVersion: v1
     appVersion: 22.2.3
-    created: "2023-09-05T10:50:45.785636+01:00"
+    created: "2023-10-05T14:57:29.744409+01:00"
     description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
     digest: 671bc8a7dee5c3d185554807eac8f8a7989f80bf50caaca123e37d8e6884e5eb
     home: https://www.cockroachlabs.com
@@ -235,7 +245,7 @@ entries:
   cockroachdb-client-secure:
   - apiVersion: v2
     appVersion: 22.2.3
-    created: "2023-09-05T10:50:45.783923+01:00"
+    created: "2023-10-05T14:57:29.742356+01:00"
     description: A Helm chart for CockroachDB's secure client container
     digest: a71304f1db8e7cd22e6c6e22903f844a29ef246b00542468ac1d00851ed657ba
     name: cockroachdb-client-secure
@@ -245,7 +255,7 @@ entries:
     version: 10.0.3
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-09-05T10:50:45.782686+01:00"
+    created: "2023-10-05T14:57:29.740838+01:00"
     description: A Helm chart for CockroachDB's secure client container
     digest: 1cae232a654cd2ecb548505c8d6918a4b64e7a5eefef0c332c540e4c84334854
     name: cockroachdb-client-secure
@@ -256,7 +266,7 @@ entries:
   mimir-crds:
   - apiVersion: v2
     appVersion: 0.30.1
-    created: "2023-09-05T10:50:45.803437+01:00"
+    created: "2023-10-05T14:57:29.775072+01:00"
     description: Mimir CustomResourceDefinitions dependencies.
     digest: 21981c870800a6a4142e65072cb62ab419d26946998a1633965a238ad01f39d8
     name: mimir-crds
@@ -267,7 +277,7 @@ entries:
   mimir-distributed:
   - apiVersion: v2
     appVersion: r253
-    created: "2023-09-05T10:50:45.824091+01:00"
+    created: "2023-10-05T14:57:29.806671+01:00"
     dependencies:
     - alias: minio
       condition: minio.enabled
@@ -295,7 +305,7 @@ entries:
     version: 5.1.0-weekly.253
   - apiVersion: v2
     appVersion: r233
-    created: "2023-09-05T10:50:45.813511+01:00"
+    created: "2023-10-05T14:57:29.792303+01:00"
     dependencies:
     - alias: minio
       condition: minio.enabled
@@ -323,7 +333,7 @@ entries:
     version: 4.4.0-weekly.233
   - apiVersion: v2
     appVersion: r225
-    created: "2023-09-05T10:50:45.799197+01:00"
+    created: "2023-10-05T14:57:29.769232+01:00"
     dependencies:
     - alias: minio
       condition: minio.enabled
@@ -351,7 +361,7 @@ entries:
     version: 4.1.0-weekly.225
   - apiVersion: v2
     appVersion: r214
-    created: "2023-09-05T10:50:45.79255+01:00"
+    created: "2023-10-05T14:57:29.752727+01:00"
     dependencies:
     - alias: minio
       condition: minio.enabled
@@ -377,4 +387,4 @@ entries:
     urls:
     - mimir-4.0.0.tgz
     version: 4.0.0-weekly.214
-generated: "2023-09-05T10:50:45.755119+01:00"
+generated: "2023-10-05T14:57:29.707731+01:00"
